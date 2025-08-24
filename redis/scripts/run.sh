@@ -64,12 +64,12 @@ run_command $SES 0 "cd ~/redis-stable/src"
 run_command $SES 1 "cd ~/redis-stable/src"
 run_command $SES 2 "cd ~/redis-stable/src"
 
-# provide location of go directory 
+# absolute path of go directory, without trailing slash
 cd $1; go build main.go 
 
 sleep 1
 
-# provide location of output directory, folder should be created already
+# provide absolute path of output directory, folder should be created already and there should not be a trailing slash 
 cd $2
 
 for run in {1..3}
@@ -79,11 +79,11 @@ for run in {1..3}
         cd $2/run_$run
         for i in {1..3} # 3 represents the number of runs 
             do
-                run_command $SES 0 "./redis-server ../redis.conf"
+                run_command $SES 0 "../../redis-server ../redis_conf/redis.conf"
 
-                run_command $SES 1 "./redis-server ../redis_backup.conf"
+                run_command $SES 1 "../../redis-server ../redis_conf/redis_backup.conf"
 
-                run_command $SES 2 "./redis-server ../redis_backup.conf"
+                run_command $SES 2 "../../redis-server ../redis_conf/redis_backup.conf"
 
                 sleep 10
 
