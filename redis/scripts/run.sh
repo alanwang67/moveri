@@ -69,7 +69,7 @@ cd $1; go build main.go
 
 sleep 1
 
-# provide absolute path of output directory, folder should be created already and there should not be a trailing slash 
+# provide absolute path of output directory, without trailing slash
 cd $2
 
 for run in {1..3}
@@ -79,6 +79,7 @@ for run in {1..3}
         cd $2/run_$run
         for i in {1..3} # 3 represents the number of runs 
             do
+                # run redis on each ssh session with 1 primary servers and 2 backup servers 
                 run_command $SES 0 "../../redis-server ../redis_conf/redis.conf"
 
                 run_command $SES 1 "../../redis-server ../redis_conf/redis_backup.conf"
@@ -87,6 +88,9 @@ for run in {1..3}
 
                 sleep 10
 
+                # the three arguments here are threads, time experiment is running and workload 
+                # (i.e. go run main.go 2500 10 50 means that there will be 2500 threads, the experiment will be ran for 10 seconds 
+                # and the workload is 50% writes)
                 cd $1; go run main.go $(( 2500 )) 10 50 > $2/run_$run/$i
                 
                 tmux send-keys -t server0 C-c
