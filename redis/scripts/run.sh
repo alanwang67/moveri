@@ -77,7 +77,7 @@ for run in {1..3}
         cd $2
         mkdir run_$run 
         cd $2/run_$run
-        for i in {1..3} # 3 represents the number of runs 
+        for i in {1..10} # 10 represents the number of runs 
             do
                 # run redis on each ssh session with 1 primary servers and 2 backup servers 
                 run_command $SES 0 "../../redis-server ../redis_conf/redis.conf"
@@ -91,11 +91,12 @@ for run in {1..3}
                 # the three arguments here are threads, time experiment is running and workload 
                 # (i.e. go run main.go 2500 10 50 means that there will be 2500 threads, the experiment will be ran for 10 seconds 
                 # and the workload is 50% writes)
-                cd $1; go run main.go $(( 2500 )) 10 50 > $2/run_$run/$i
+                cd $1; go run main.go $(( 200 * $i )) 10 50 > $2/run_$run/$i
                 
                 tmux send-keys -t server0 C-c
                 tmux send-keys -t server1 C-c
                 tmux send-keys -t server2 C-c
+            done
         done 
     done
 done
