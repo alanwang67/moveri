@@ -107,17 +107,17 @@ else
                         # for different write percentages we scale up by different amounts of threads
                         if [ $w = 50 ]; then
                             # start client arguments are client config file, time client is running, session semantic, workload 
-                            cd ~/session_semantics; ./main $ct client $3/$name.json $(( 2 + (($i - 1) * 9) )) 10 $session $w > $2/$name/workload_$w/$session/run_$run/$i
+                            cd $1; ./main $ct client $3/$name.json $(( 2 + (($i - 1) * 9) )) 10 $session $w > $2/$name/workload_$w/$session/run_$run/$i
                         fi 
 
                         if [ $w = 5 ]; then
                             # start client arguments are client config file, number of threads, time client is running, session semantic, workload 
-                            cd ~/session_semantics; ./main $ct client $3/$name.json $(( 2 + (($i - 1) * 8) )) 10 $session $w > $2/$name/workload_$w/$session/run_$run/$i
+                            cd $1; ./main $ct client $3/$name.json $(( 2 + (($i - 1) * 8) )) 10 $session $w > $2/$name/workload_$w/$session/run_$run/$i
                         fi 
 
                         if [ $w = 95 ]; then
                             # start client arguments are client config file, number of threads, time client is running, session semantic, workload 
-                            cd ~/session_semantics; ./main $ct client $3/$name.json $(( 2 + (($i - 1) * 6) )) 10 $session $w > $2/$name/workload_$w/$session/run_$run/$i
+                            cd $1; ./main $ct client $3/$name.json $(( 2 + (($i - 1) * 6) )) 10 $session $w > $2/$name/workload_$w/$session/run_$run/$i
                         fi 
 
                         ct=$(($ct + 1))
