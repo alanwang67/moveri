@@ -1,0 +1,24 @@
+#!/bin/bash
+
+. ./common
+
+serverCount=4
+
+# pkill batchrun
+ssh -A $launcherNode "pkill batchrun"
+# ssh -A $launcherNode "rm -f AllOutputs.txt"
+# ssh -A $launcherNode "rm -f AllResults.txt"
+# ssh -A $launcherNode "rm -f LauncherOutput.txt"
+# ssh -A $launcherNode "rm -f Settings.txt"
+# ssh -A $launcherNode "rm -f -r _build"
+# ssh -A $launcherNode "rm -f -r bench"
+ssh -A $launcherNode "rm -f -r Runner"
+for (( i=0; i < $serverCount; i++ ))
+do
+   ssh -A ${workerNodes[$i]} "pkill launchStore"
+#    ssh -A ${workerNodes[$i]} "rm -f Settings.txt"
+   ssh -A ${workerNodes[$i]} "rm -f -r Runner$i"
+done
+ssh -A $masterNode "pkill launchStore"
+# ssh -A $masterNode "rm -f Settings.txt"
+ssh -A $masterNode "rm -f -r Runner"

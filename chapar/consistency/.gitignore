@@ -1,0 +1,9 @@
+*~
+*#*#
+.#*
+.DS_Store
+*.vo
+*.v.d
+*.glob
+*.aux
+/Makefile.coq

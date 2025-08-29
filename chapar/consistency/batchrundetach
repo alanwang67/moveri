@@ -1,0 +1,22 @@
+#!/bin/bash
+
+. ./common
+
+
+ssh -A -A -A $launcherNode "mkdir -p ~/Runner/Launcher/_build/ml"
+scp -A -A common $launcherNode:~/Runner/Launcher/
+scp -A -A run $launcherNode:~/Runner/Launcher/
+scp -A -A batchrun $launcherNode:~/Runner/Launcher
+scp -A -A Settings.txt $launcherNode:~/Runner/Launcher/
+# ssh -A -A -A $launcherNode "pkill batchrun"
+
+for (( algNo=${alg1}; algNo <= ${alg2}; algNo++ ))
+do
+   scp -A -A _build/ml/launchStore${algNo}.native $launcherNode:~/Runner/Launcher/_build/ml/
+   scp -A -A launchStore${algNo}.native $launcherNode:~/Runner/Launcher
+done
+scp -A -A _build/ml/benchgen.native $launcherNode:~/Runner/Launcher/_build/ml/
+scp -A -A benchgen.native $launcherNode:~/Runner/Launcher/
+
+ssh -A -A -A -A $launcherNode "cd Runner/Launcher; echo "" >> AllOutputs.txt; echo "" >> AllResults.txt; nohup ./batchrun > LauncherOutput.txt 2>&1 &"
+

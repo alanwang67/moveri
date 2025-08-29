@@ -1,0 +1,28 @@
+### Starting build.
+# Target: ml/experiment.ml.depends, tags: { extension:ml, file:ml/experiment.ml, ocaml, ocamldep, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamldep.opt -modules ml/experiment.ml > ml/experiment.ml.depends
+# Target: ml/configuration.ml.depends, tags: { extension:ml, file:ml/configuration.ml, ocaml, ocamldep, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamldep.opt -modules ml/configuration.ml > ml/configuration.ml.depends # cached
+# Target: ml/common.ml.depends, tags: { extension:ml, file:ml/common.ml, ocaml, ocamldep, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamldep.opt -modules ml/common.ml > ml/common.ml.depends # cached
+# Target: ml/common.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ml/common.cmo, file:ml/common.ml, implem, ocaml, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamlc.opt -c -I ml -I coq -I ml/MLLib/batteries -o ml/common.cmo ml/common.ml # cached
+# Target: ml/configuration.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ml/configuration.cmo, file:ml/configuration.ml, implem, ocaml, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamlc.opt -c -I ml -I coq -I ml/MLLib/batteries -o ml/configuration.cmo ml/configuration.ml # cached
+# Target: ml/readConfig.ml.depends, tags: { extension:ml, file:ml/readConfig.ml, ocaml, ocamldep, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamldep.opt -modules ml/readConfig.ml > ml/readConfig.ml.depends # cached
+# Target: ml/readConfig.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ml/readConfig.cmo, file:ml/readConfig.ml, implem, ocaml, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamlc.opt -c -I ml -I coq -I ml/MLLib/batteries -o ml/readConfig.cmo ml/readConfig.ml # cached
+# Target: ml/experiment.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ml/experiment.cmo, file:ml/experiment.ml, implem, ocaml, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamlc.opt -c -I ml -I coq -I ml/MLLib/batteries -o ml/experiment.cmo ml/experiment.ml
+# Target: ml/common.cmx, tags: { compile, extension:cmx, extension:ml, file:ml/common.cmx, file:ml/common.ml, implem, native, ocaml, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamlopt.opt -c -I ml -I coq -I ml/MLLib/batteries -o ml/common.cmx ml/common.ml # cached
+# Target: ml/configuration.cmx, tags: { compile, extension:cmx, extension:ml, file:ml/configuration.cmx, file:ml/configuration.ml, implem, native, ocaml, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamlopt.opt -c -I ml -I coq -I ml/MLLib/batteries -o ml/configuration.cmx ml/configuration.ml # cached
+# Target: ml/readConfig.cmx, tags: { compile, extension:cmx, extension:ml, file:ml/readConfig.cmx, file:ml/readConfig.ml, implem, native, ocaml, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamlopt.opt -c -I ml -I coq -I ml/MLLib/batteries -o ml/readConfig.cmx ml/readConfig.ml # cached
+# Target: ml/experiment.cmx, tags: { compile, extension:cmx, extension:ml, file:ml/experiment.cmx, file:ml/experiment.ml, implem, native, ocaml, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamlopt.opt -c -I ml -I coq -I ml/MLLib/batteries -o ml/experiment.cmx ml/experiment.ml
+# Target: ml/experiment.native, tags: { dont_link_with, extension:native, file:ml/experiment.native, link, native, ocaml, program, quiet }
+/scratch/tmp/.opam/4.01.0/bin/ocamlopt.opt unix.cmxa ml/common.cmx ml/configuration.cmx ml/readConfig.cmx ml/experiment.cmx -o ml/experiment.native
+# Compilation successful.

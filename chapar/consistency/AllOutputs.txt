@@ -1,0 +1,546 @@
+---------------------------------------------
+Algorithm: 1
+Server count: 4
+Operation count: 60000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 218.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 243.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 235.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 237.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 251.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 236.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 244.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 223.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+---------------------------------------------
+Algorithm: 2
+Server count: 4
+Operation count: 60000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 213.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 228.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 222.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 218.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 224.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 230.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 226.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 40.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+---------------------------------------------
+Algorithm: 1
+Server count: 4
+Operation count: 1000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 0.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 0.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 0.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 0.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+---------------------------------------------
+Algorithm: 1
+Server count: 4
+Operation count: 10000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 0.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 0.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 0.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 0.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 0.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 0.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 0.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 0.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+---------------------------------------------
+Algorithm: 1
+Server count: 4
+Operation count: 20000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 1.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 1.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 1.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 2.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 2.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 2.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+---------------------------------------------
+Algorithm: 1
+Server count: 4
+Operation count: 30000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 11.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 11.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 9.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 10.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 10.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 9.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 11.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 11.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+---------------------------------------------
+Algorithm: 2
+Server count: 4
+Operation count: 30000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 9.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 10.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 9.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 10.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 14.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 18.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 11.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 17.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+---------------------------------------------
+Algorithm: 1
+Server count: 3
+Operation count: 30000
+Put percent: 50
+Fatal error: exception End_of_file
+Fatal error: exception End_of_file
+Fatal error: exception End_of_file
+---------------------------------------------
+Algorithm: 1
+Server count: 4
+Operation count: 30000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 10.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 10.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 11.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 11.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 11.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 11.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 9.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 10.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+---------------------------------------------
+Algorithm: 2
+Server count: 4
+Operation count: 30000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 21.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 20.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 18.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 1.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 17.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 17.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 12.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 19.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
+---------------------------------------------
+Algorithm: 1
+Server count: 4
+Operation count: 30000
+Put percent: 50
+Node 0: Setting up the node state
+Node 0: Waiting for start flag
+Node 0: Entering the step loop
+Node 0: Finished in 15.000000 seconds.
+Node 0: Sending finish flag and waiting for termination flag
+Node 0: Received termination flag
+Node 1: Setting up the node state
+Node 1: Waiting for start flag
+Node 1: Entering the step loop
+Node 1: Finished in 11.000000 seconds.
+Node 1: Sending finish flag and waiting for termination flag
+Node 1: Received termination flag
+Node 2: Setting up the node state
+Node 2: Waiting for start flag
+Node 2: Entering the step loop
+Node 2: Finished in 12.000000 seconds.
+Node 2: Sending finish flag and waiting for termination flag
+Node 2: Received termination flag
+Node 3: Setting up the node state
+Node 3: Waiting for start flag
+Node 3: Entering the step loop
+Node 3: Finished in 8.000000 seconds.
+Node 3: Sending finish flag and waiting for termination flag
+Node 3: Received termination flag
+Node -1: Setting up the node state
+Node -1: sending flag
+Node -1: Waiting for finish flag
+Node -1: Sending termination flag
