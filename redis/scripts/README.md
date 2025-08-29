@@ -4,7 +4,7 @@
 
 # How to run
 1. Use ssh key forwarding 
-2. Provide: {absolute path of go code} {absolute path where you want your output} 
+2. Provide: {absolute path of go code} {absolute path where you want your output} \
 (Example) ./run.sh ~/moveri/redis/redis_client ~/redis_output
 
 
